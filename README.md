@@ -24,20 +24,20 @@ Ensure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/fetch-monthly-receipts.git
-   cd fetch-receipt-predictor
+   git clone https://github.com/B-a-1-a/fetch-monthly-receipts
+   cd fetch-monthly-receipts
    ```
 
 2. **Build the Docker image:**
 
    ```bash
-   docker build -t fetch-receipt-predictor .
+   docker build -t fetch-monthly-receipts . 
    ```
 
 3. **Run the Docker container:**
 
    ```bash
-   docker run -p 8501:8501 fetch-receipt-predictor
+   docker run -p 8501:8501 fetch-monthly-receipts
    ```
 
 4. **Access the app:**
@@ -57,12 +57,11 @@ The dataset is provided in the `data` directory as `data_daily.csv`, and it incl
 ### Project Structure
 
 ```
-fetch-receipt-predictor/
+fetch-monthly-receipts/
 ├── app.py                 # Main application file
 ├── Dockerfile             # Docker configuration
 ├── requirements.txt       # Python dependencies
-├── data/
-│   └── data_daily.csv     # Input dataset
+├── data_daily.csv         # Input dataset
 └── README.md              # This file
 ```
 
